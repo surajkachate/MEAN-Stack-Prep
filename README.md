@@ -4,7 +4,7 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ---
 
-# Learn Web Development Basics (PPT-Notes)
+## Learn Web Development Basics (PPT-Notes)
 
 - [HTML](https://www.canva.com/design/DAG5uN3b_cU/JGr66BDCILLUWHZ2_loHWA/edit?utm_content=DAG5uN3b_cU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [CSS](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -12,14 +12,14 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ---
 
-# Learn MEAN Stack (PPT-Notes)
+## Learn MEAN Stack (PPT-Notes)
 
 - [Introduction](https://www.canva.com/design/DAG2UkLR1nc/wV4cpVZgz0eiGcT_gX84Vw/edit?utm_content=DAG2UkLR1nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [MongoDB](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
-# Web Development Projects (Code)
+## Web Development Projects (Code)
 - [Login Register: HTML, CSS, JS](https://docs.google.com/document/d/1JOayrSxnj4G6_9seqpoeVmx-6eh7dkIS8E25YiO_6Mk/edit?tab=t.0) 
 
 ---
