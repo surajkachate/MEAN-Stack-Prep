@@ -189,19 +189,15 @@ If this repository helps you, please:
 ## Author
 
 **Suraj Kachate**  
-Software Engineer | Technical Trainer
-## Author
-
-**Suraj Kachate**  
 Software Engineer | Technical Trainer  
 
 ### Connect with me  
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/surajkachate/)
 [![Instagram](https://skillicons.dev/icons?i=instagram)](https://www.instagram.com/surajkachate/)
-[![Facebook](https://skillicons.dev/icons?i=facebook)](https://www.facebook.com/profile.php?id=61561453864821)
+<!-- [![Facebook](https://skillicons.dev/icons?i=facebook)](https://www.facebook.com/profile.php?id=61561453864821) -->
 [![YouTube](https://skillicons.dev/icons?i=youtube)](https://www.youtube.com/@surajkachate)
-[![X](https://skillicons.dev/icons?i=twitter)](YOUR_X_URL)
-[![Threads](https://skillicons.dev/icons?i=threads)](https://www.threads.com/@surajkachate)
+<!-- [![X](https://skillicons.dev/icons?i=twitter)](YOUR_X_URL) -->
+<!-- [![Threads](https://skillicons.dev/icons?i=threads)](https://www.threads.com/@surajkachate) -->
 [![Website](https://skillicons.dev/icons?i=wordpress)](https://www.surajkachate.com)
 
 ---

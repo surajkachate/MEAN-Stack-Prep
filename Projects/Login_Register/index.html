@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+        }
+
+
+        .container {
+            width: 380px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+
+        .form-box {
+            padding: 30px;
+            transition: transform 0.4s ease;
+        }
+
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+
+        .input-group {
+            position: relative;
+            margin: 15px 0;
+        }
+
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 14px;
+        }
+
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background: #2575fc;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+
+
+        .btn:hover {
+            background: #1a5ed9;
+        }
+
+
+        .switch-form {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+
+        .switch-form a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+
+        /* Hide the register form initially */
+        #registerForm {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!-- Login Form -->
+        <div class="form-box" id="loginForm">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input type="text" id="loginEmail" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <input type="password" id="loginPassword" placeholder="Password">
+            </div>
+            <button class="btn" onclick="login()">Login</button>
+            <div class="switch-form">
+                <p>Don't have an account? <a onclick="showRegister()">Register</a></p>
+            </div>
+        </div>
+
+
+        <!-- Register Form -->
+        <div class="form-box" id="registerForm">
+            <h2>Register</h2>
+            <div class="input-group">
+                <input type="text" id="registerName" placeholder="Full Name">
+            </div>
+            <div class="input-group">
+                <input type="email" id="registerEmail" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <input type="password" id="registerPassword" placeholder="Password">
+            </div>
+            <button class="btn" onclick="register()">Register</button>
+            <div class="switch-form">
+                <p>Already have an account? <a onclick="showLogin()">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const registerForm = document.getElementById('registerForm');
+
+
+        function showRegister() {
+            loginForm.style.display = 'none';
+            registerForm.style.display = 'block';
+        }
+
+
+        function showLogin() {
+            registerForm.style.display = 'none';
+            loginForm.style.display = 'block';
+        }
+
+
+        function register() {
+            const name = document.getElementById('registerName').value;
+            const email = document.getElementById('registerEmail').value;
+            const password = document.getElementById('registerPassword').value;
+
+
+            if (name === '' || email === '' || password === '') {
+                alert('Please fill all fields');
+                return;
+            }
+
+
+            // Save user to local storage (for demo)
+            localStorage.setItem('user', JSON.stringify({ name, email, password }));
+            alert('Registration successful!');
+            showLogin();
+        }
+
+
+        function login() {
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+
+
+            const user = JSON.parse(localStorage.getItem('user'));
+
+
+            if (user && user.email === email && user.password === password) {
+                alert(`Welcome, ${user.name}!`);
+            } else {
+                alert('Invalid credentials!');
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
