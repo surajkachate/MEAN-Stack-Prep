@@ -19,8 +19,14 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ---
 
-## Web Development Projects (Code)
-- [Login Register Form: HTML, CSS, JS & Local Storage](https://docs.google.com/document/d/1JOayrSxnj4G6_9seqpoeVmx-6eh7dkIS8E25YiO_6Mk/edit?tab=t.0) 
+## [Web Development Projects (Code)](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects) 
+- [Login Register Form: HTML, CSS, JS & Local Storage](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Login_Register)
+- [Character Counter for Text Input](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
+- [Countdown Timer](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
+- [Create a Mini Quiz](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
+- [Fetch Data from API](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
+- [Image Slider](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
+- [Kayboard Key Detection](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
 
 ---
 
