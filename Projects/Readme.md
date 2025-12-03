@@ -1,4 +1,4 @@
-## [Web Development Projects (Code)](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects) 
+## Web Development Projects (Code)
 - [Login Register Form: HTML, CSS, JS & Local Storage](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Login_Register)
 - [Character Counter for Text Input](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Character_Counter_for_Text_Input.html)
 - [Countdown Timer](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Countdown_Timer.html)
