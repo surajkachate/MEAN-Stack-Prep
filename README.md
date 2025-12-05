@@ -201,8 +201,9 @@ If this repository helps you, please:
 
 ---
 
-## Author
+## 📩 Contact
 
+For collaborations, web development, training, or queries:
 **Suraj Kachate**  
 Software Engineer | Technical Trainer  
 
